@@ -1,0 +1,14 @@
+server:
+  port: 8095
+spring:
+  datasource:
+    username: root
+    password: tendai123*
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/super
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+
